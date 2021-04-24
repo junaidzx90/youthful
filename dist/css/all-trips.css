@@ -1,0 +1,55 @@
+.table-wrap{
+    overflow-x: auto;
+    position: relative;
+}
+td.status.text-success div button {
+    border: none;
+    box-shadow: none;
+}
+
+.edit-inp{
+    display: none;
+}
+.hide-inp{
+    display: none;
+}
+.close-edit{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.edit-inp {
+    width: 100%;
+    padding: 0px 3px;
+}
+.edit-inp span i {
+    color: #e13745;
+}
+.action-btns {
+    min-width: 80px;
+}
+
+table tbody tr td{
+    position: relative;
+}
+table tbody tr td {
+    min-width: 184px;
+    max-width: 184px;
+}
+#show-trips .btn{
+    font-size: 18px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+input.input:focus {
+    position: absolute;
+    left: 0;
+}
+@media(max-width:1024px){
+    .profile-image-holder {
+        width: 120px;
+        height: 120px;
+    }
+    .profile-info table{
+        cursor: grabbing;
+    }
+}

@@ -1,0 +1,273 @@
+.profile-image-holder {
+    position: relative;
+    border: 5px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+.user-info {
+    color: #616161;
+    font-size: 20px;
+}
+.user-info small {
+    display: block;
+    margin: 2px 0px;
+}
+.user-info small i {
+    min-width: 18px;
+    font-size: 16px;
+    color: #a4a4a4;
+}
+.file.btn.btn-lg.btn-primary {
+    position: absolute;
+    bottom: 0px;
+    padding: 78px 0px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #000000;
+    border: #28a745;
+    width: 100%;
+    opacity: .5;
+    display: none;
+}
+.file.btn.btn-lg.btn-primary:hover{
+    display: block;
+}
+img.avatar:hover ~ .file.btn.btn-lg.btn-primary{
+    display: block;
+    transition: 1s;
+}
+.user_avatar {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+img.avatar {
+    margin: auto;
+    height: 100%;
+}
+
+.user_avatar + label,.savebtn {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.savebtn_active{
+    font-size:38px;
+    top: 0 !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.user_avatar + label,.savebtn {
+	cursor: pointer; /* "hand" cursor */
+}
+.profile-card .card{
+    position: relative;
+    overflow: hidden;
+}
+.profile-card .card .user-role {
+    position: absolute;
+    box-shadow: 1px 1px 6px #a7a7a7;
+    right: -38px;
+    font-size: 22px;
+    padding: 0px 22px;
+    transform: rotate(45deg);
+    width: 134px;
+    text-align: center;
+    top: 19px;
+}
+
+.create-new-trip{
+    position: absolute;
+}
+.create-new-trip {
+    position: absolute;
+    bottom: 9px;
+    right: 15px;
+    font-size: 36px;
+    padding: 11px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    box-shadow: 0px 1px 10px -2px #333;
+    z-index: 99;
+    opacity: .5;
+}
+.create-new-trip:hover{
+    opacity: 1;
+}
+
+td.table-data-head,td.table-data-body{
+    min-width: 124px;
+}
+td.table-data-body{
+    border-left: 1px solid #ddd;
+    width: 100%;
+}
+td.table-data-head {
+    font-weight: bold;
+    color: #636363;
+    padding-left: 10px;
+}
+.no-trip{
+    min-height: 448px;
+    background-image: linear-gradient(0deg, #f7f7f7, #3e3e3eab),url(../../assets/images/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 1px !important;
+}
+.no-trip .alert:hover{
+    transform: scale(1.2);
+}
+.active-item:hover{
+    box-shadow: 0px 1px 10px 0px #a2a2a2;
+}
+.ui-menu{
+    z-index: 999;
+}
+
+/* Modal css */
+.modal-title,.trip-history-title{
+    font-family: Shamim-Noor;
+}
+.popup-wizered{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000aa;
+    display: none;
+}
+.close-modal {
+    position: absolute;
+    right: 4px;
+    top: 0;
+    border: none;
+    color: #e13745;
+    outline: none;
+    box-shadow:none !important;
+    background:none !important;
+    font-size: 36px;
+    opacity: .8;
+}
+.popup-wizered-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form_datetime{
+    position: relative;
+}
+.btn-previous,.btn-next,.btn-finish{
+    font-size: 18px;
+}
+
+.modal-form{
+    position: relative;
+}
+
+.payment-hist-item:hover {
+    box-shadow: 0px 1px 10px 0px #a2a2a2;
+}
+.commision{
+    font-size: 20px;
+}
+
+.close-modal:hover{
+    opacity: 1;
+}
+.close-modal:focus,.close-modal:active{
+    border: none;
+    outline: none;
+    box-shadow:none !important;
+    background:none !important;
+}
+.nav>li>a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.wizard-card[data-color="orange"] .moving-tab {
+    font-size: 20px;
+    background-color: #049F0C;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+small.from-time,small.to-time {
+    background: #585858;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+small.to-time {
+    background: #806b6b;
+}
+
+.datetimepicker-days table tbody tr td {
+    min-width: 37px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: #f7f7f7 !important;
+    background-color: #a3a4c7;
+}
+.trip-condition-tab{
+    text-decoration: none !important;
+}
+footer.card-blockquote {
+    background-color: #eaeaea;
+    padding: 11px;
+}
+
+
+@media(max-width:960px){
+    .profile-image-holder {
+        width: 120px;
+        height: 120px;
+    }
+    .msg-user-img{
+        display: none !important;
+    }
+    .message-body {
+        min-height: 343px !important;
+    }
+    .file.btn.btn-lg.btn-primary {
+        padding: 39px 0px;
+    }
+}
+@media(max-width:768px){
+    .no-trip{
+        padding: 10px 0px;
+        margin: 0px 2px !important;
+        min-height: fit-content;
+    }
+    .padds{
+        padding: 5px !important;
+    }
+}
+
+
+/* Modal css */

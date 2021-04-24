@@ -1,0 +1,152 @@
+.current-trips-title,.widget-title{
+    font-family: Shamim-Noor;
+}
+.trip-card:hover {
+    box-shadow: 0px 1px 10px 0px #a2a2a2;
+    transform: scale(1.01);
+    z-index: 5;
+}
+
+span.to-icon {
+    color: #e13745;
+    font-size: 18px;
+    display: block;
+}
+.trip-card-address {
+    background-color: #ffffff;
+    text-align: center;
+}
+.card-trip-load-date{
+    background-color: #f7f7f7;
+    color: #28a745;
+}
+.bid-full-btn {
+    font-size: 24px;
+}
+div#dash_board_sidebar {
+    margin-top: 40px;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.trip .card{
+    padding: 0 !important;
+}
+.trip {
+    align-self: flex-end;
+}
+.dashboard_sidebar {
+    background: #ffffff;
+    margin-bottom: 8px !important;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #e6e6e6;
+}
+.dashboard_sidebar .textwidget {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    line-break: anywhere;
+}
+.dashboard_sidebar ul{
+    margin: 0;
+}
+.dashboard_sidebar .post-date {
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.dashboard_sidebar img {
+    width: 100%;
+    height: auto;
+}
+.dashboard_sidebar form{
+    text-align: center;
+}
+.dashboard_sidebar form label, .dashboard_sidebar form input {
+    display: block;
+    width: 97%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+.dashboard_sidebar ul li {
+    list-style: none;
+    padding: 8px 14px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.dashboard_sidebar ul li:last-child{
+    border-bottom: unset !important;
+}
+.dashboard_sidebar .widget-title {
+    font-family: Shamim-Noor;
+    text-align: center;
+    padding: 16px;
+    margin: 0px;
+}
+.dashboard_sidebar p {
+    padding: 0px 16px;
+}
+.dashboard_sidebar .carousel-inner {
+    border-top: unset !important;
+    border-bottom: unset !important;
+}
+.dashboard_sidebar .carousel-inner h3{
+    text-align: left !important;
+}
+.dashboard_sidebar .card{
+    border: none !important;
+    padding-top: 0px;
+}
+#widget-slider .carousel-indicators {
+    margin-bottom: 0px;
+}
+.widget-card img{
+    min-height: 235px;
+}
+.widget-carousel:after{
+    display: none;
+}
+.page-item.active .page-link {
+    background-color: #dd19287a;
+    border-color: #dd19287a;
+}
+.popup-wizered{
+    display: none;
+}
+.trip-pagination{
+    width: 100%;
+    overflow: hidden;
+}
+.bidformpopup{
+    min-height: fit-content !important;
+}
+div#wizardBid .close-modal {
+    margin-top: -8px;
+}
+.btn.disabled,
+.btn:disabled {
+    opacity: 0.3 !important;
+}
+@media(max-width:991px){
+    
+    .container{
+        padding: 0;
+    }
+}
+.widget-btn {
+    background-color: #909090;
+    padding: 15px;
+    background-size: 18px;
+    border-radius: 50%;
+}
+@media(max-width:768px){
+    
+    .trip-card:hover {
+        box-shadow: none;
+        transform: none;
+    }
+}
