@@ -34,7 +34,7 @@ function upload_avatar(){
 
                         
                         if($check_has != 0){
-                            update_user_meta($current_user->ID, 'user_avatar',true);
+                            update_user_meta($current_user->ID, 'user_avatar', $avatar_url);
 
                             echo wp_json_encode(array("success" =>"updated"));
                             wp_die();
